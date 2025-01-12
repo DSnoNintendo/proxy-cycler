@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ProxyCycler.iml" filepath="$PROJECT_DIR$/.idea/ProxyCycler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxy-cycler/.idea/proxy-cycler.iml" filepath="$PROJECT_DIR$/../proxy-cycler/.idea/proxy-cycler.iml" />
     </modules>
   </component>
 </project>
