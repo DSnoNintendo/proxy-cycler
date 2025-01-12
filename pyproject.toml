@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "proxy_cycler"
-version = "1.0.0"
+version = "1.1.0"
 description = "A simple tool for using a collection of proxies with the Python requests library"
 authors = ["Daryl Stronge <darylkstronge@gmail.com>"]
 readme = "README.md"
