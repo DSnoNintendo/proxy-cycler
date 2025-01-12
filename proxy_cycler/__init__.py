@@ -4,7 +4,8 @@ from typing import Optional, List
 class ProxyCycler:
     def __init__(self, proxies: List[Optional] = None, keys: List[Optional] = None):
         self.proxies = set(proxies) if proxies else set()
-        self.current_proxy = proxies[0]
+        self.current_proxy = proxies[0] if len(self.proxies) else None
+        self.proxy_cycle = set()
         if not keys:
             self.keys = ["http", "https"]
         else:
