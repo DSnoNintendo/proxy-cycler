@@ -14,7 +14,7 @@ proxy_cycler = ProxyCycler(
 )
 
 # Add proxy dynamically
-proxy_cycler.add("socks5://user:pass@proxyurl.2:1080")
+proxy_cycler.add_proxy("socks5://user:pass@proxyurl.2:1080")
 
 while True:
     try:
